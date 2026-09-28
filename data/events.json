@@ -1,0 +1,47 @@
+[
+  {
+    "id": "event_001",
+    "timestamp": "2026-09-01T09:00:00Z",
+    "type": "release",
+    "channel": "announcements",
+    "title": "Framework v2.0 released",
+    "description": "Framework v2.0 was released and the community was asked to review the updated deployment guide.",
+    "severity": "info"
+  },
+  {
+    "id": "event_002",
+    "timestamp": "2026-09-08T08:30:00Z",
+    "type": "issue",
+    "channel": "deployments",
+    "title": "Authentication errors reported",
+    "description": "Multiple community members began reporting authentication errors during deployment.",
+    "severity": "medium"
+  },
+  {
+    "id": "event_003",
+    "timestamp": "2026-09-09T11:00:00Z",
+    "type": "trend",
+    "channel": "help",
+    "title": "Deployment questions increasing",
+    "description": "Repeated questions about how to deploy using Framework v2 began appearing across help channels.",
+    "severity": "medium"
+  },
+  {
+    "id": "event_004",
+    "timestamp": "2026-09-15T09:00:00Z",
+    "type": "issue",
+    "channel": "deployments",
+    "title": "Deployment complaints continue",
+    "description": "Deployment and authentication complaints continued during the following week.",
+    "severity": "medium"
+  },
+  {
+    "id": "event_005",
+    "timestamp": "2026-09-22T08:00:00Z",
+    "type": "resolution",
+    "channel": "deployments",
+    "title": "Authentication issue reported as resolved",
+    "description": "A community member reported that updating the credentials configuration resolved the authentication issue.",
+    "severity": "info"
+  }
+]

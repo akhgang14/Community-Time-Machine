@@ -1,0 +1,14 @@
+[
+  {
+    "id": "faq_001",
+    "question": "How do I deploy an application with Framework v2?",
+    "answer": "Use the updated deployment command documented in the Framework v2 deployment guide. The previous deployment command is no longer supported.",
+    "source_ids": [
+      "msg_001",
+      "msg_008"
+    ],
+    "status": "PUBLISHED",
+    "created_at": "2026-09-10T16:00:00Z",
+    "updated_at": "2026-09-10T16:00:00Z"
+  }
+]

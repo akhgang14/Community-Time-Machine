@@ -1,0 +1,122 @@
+[
+  {
+    "id": "msg_001",
+    "timestamp": "2026-09-01T09:15:00Z",
+    "channel": "announcements",
+    "author": "admin",
+    "content": "Framework v2.0 has been released. Please review the deployment guide before upgrading.",
+    "type": "announcement"
+  },
+  {
+    "id": "msg_002",
+    "timestamp": "2026-09-02T10:30:00Z",
+    "channel": "general",
+    "author": "alice",
+    "content": "Has anyone tried the new framework version yet?",
+    "type": "message"
+  },
+  {
+    "id": "msg_003",
+    "timestamp": "2026-09-03T14:20:00Z",
+    "channel": "deployments",
+    "author": "bob",
+    "content": "Deployment worked for me after following the updated guide.",
+    "type": "message"
+  },
+  {
+    "id": "msg_004",
+    "timestamp": "2026-09-08T08:45:00Z",
+    "channel": "deployments",
+    "author": "charlie",
+    "content": "I'm getting an authentication error when deploying with Framework v2.",
+    "type": "message"
+  },
+  {
+    "id": "msg_005",
+    "timestamp": "2026-09-08T09:10:00Z",
+    "channel": "deployments",
+    "author": "diana",
+    "content": "I am seeing the same authentication error during deployment.",
+    "type": "message"
+  },
+  {
+    "id": "msg_006",
+    "timestamp": "2026-09-09T11:00:00Z",
+    "channel": "help",
+    "author": "eve",
+    "content": "How do I deploy the new Framework v2 application?",
+    "type": "question"
+  },
+  {
+    "id": "msg_007",
+    "timestamp": "2026-09-09T11:30:00Z",
+    "channel": "help",
+    "author": "frank",
+    "content": "How do I deploy with Framework v2? The old command gives an error.",
+    "type": "question"
+  },
+  {
+    "id": "msg_008",
+    "timestamp": "2026-09-10T15:45:00Z",
+    "channel": "deployments",
+    "author": "bob",
+    "content": "The deployment command changed in v2. Check the new deployment documentation.",
+    "type": "answer"
+  },
+  {
+    "id": "msg_009",
+    "timestamp": "2026-09-15T09:20:00Z",
+    "channel": "deployments",
+    "author": "alice",
+    "content": "Deployment is failing again with an authentication error.",
+    "type": "message"
+  },
+  {
+    "id": "msg_010",
+    "timestamp": "2026-09-15T10:05:00Z",
+    "channel": "help",
+    "author": "charlie",
+    "content": "How do I deploy with the latest version? I can't find the correct command.",
+    "type": "question"
+  },
+  {
+    "id": "msg_011",
+    "timestamp": "2026-09-16T13:40:00Z",
+    "channel": "general",
+    "author": "diana",
+    "content": "Several people seem to be having deployment problems after the upgrade.",
+    "type": "message"
+  },
+  {
+    "id": "msg_012",
+    "timestamp": "2026-09-17T16:10:00Z",
+    "channel": "help",
+    "author": "frank",
+    "content": "Does anyone know the new deployment command for Framework v2?",
+    "type": "question"
+  },
+  {
+    "id": "msg_013",
+    "timestamp": "2026-09-22T08:30:00Z",
+    "channel": "deployments",
+    "author": "bob",
+    "content": "The authentication issue appears to be resolved after updating the credentials configuration.",
+    "type": "answer"
+  },
+  {
+    "id": "msg_014",
+    "timestamp": "2026-09-23T12:00:00Z",
+    "channel": "help",
+    "author": "eve",
+    "content": "I'm still confused about how deployment works in Framework v2.",
+    "type": "question"
+  },
+  {
+    "id": "msg_015",
+    "timestamp": "2026-09-24T14:30:00Z",
+    "channel": "general",
+    "author": "alice",
+    "content": "We should probably document the new deployment process more clearly.",
+    "type": "suggestion"
+  }
+]
