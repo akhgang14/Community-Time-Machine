@@ -17,20 +17,20 @@ class MemoryRetriever:
         self.data_dir = Path(data_dir)
         self.client = memory_client
 
-    def load_data(self) -> None:
+    async def load_data(self) -> None:
         """Load messages and events into the memory store."""
 
-        self._load_messages()
-        self._load_events()
+        await self._load_messages()
+        await self._load_events()
 
-    def _load_messages(self) -> None:
+    async def _load_messages(self) -> None:
         path = self.data_dir / "messages.json"
 
         with open(path, "r", encoding="utf-8") as file:
             messages = json.load(file)
 
         for message in messages:
-            self.client.remember(
+            await self.client.remember(
                 memory_id=message["id"],
                 content=message["content"],
                 memory_type="message",
@@ -42,14 +42,14 @@ class MemoryRetriever:
                 },
             )
 
-    def _load_events(self) -> None:
+    async def _load_events(self) -> None:
         path = self.data_dir / "events.json"
 
         with open(path, "r", encoding="utf-8") as file:
             events = json.load(file)
 
         for event in events:
-            self.client.remember(
+            await self.client.remember(
                 memory_id=event["id"],
                 content=(
                     f"{event['title']}: "
@@ -85,3 +85,11 @@ class MemoryRetriever:
         """Retrieve a specific memory by ID."""
 
         return self.client.get(memory_id)
+    
+
+    def list_memories(self) -> List[Dict[str, Any]]:
+        """Return all currently stored memories."""
+        return self.client.list_memories()
+
+    def close(self):
+        self.client.close()

@@ -8,7 +8,7 @@ router = APIRouter(prefix="/memory", tags=["memory"])
 
 
 @router.get("/search")
-def search_memory(
+async def search_memory(
     q: str = Query(..., min_length=1),
     limit: int = Query(10, ge=1, le=100),
 ) -> Dict[str, Any]:
@@ -19,7 +19,7 @@ def search_memory(
     investigation, recurring-question detection, and FAQ generation.
     """
 
-    results: List[Dict[str, Any]] = memory_client.search(
+    results: List[Dict[str, Any]] = await memory_client.search(
         query=q,
         limit=limit,
     )
